@@ -1,0 +1,24 @@
+[user]
+	name = Eduardo Ferreira
+	email = eduardoferreira_of@outlook.com
+[init]
+	defaultBranch = main
+[core]
+	autocrlf = true
+[merge]
+	tool = vimdiff
+[safe]
+	directory = C:/Users/eduar/OneDrive/Documentos/GitHub/arquivo
+	directory = C:/Users/eduar/OneDrive/Documentos/Projetos Python/GitHub/Tech.Tools/Tech.Tools
+	directory = C:/Users/eduar/OneDrive/Documentos/Projetos Python/GitHub/Tech.Tools/TechTools
+	directory = C:/Users/eduar/OneDrive/Documentos/Projetos Python/GitHub/Tech.Tools/TechTools
+[http]
+	proxy = https://github.com/EduardoFerreira22/Tech.Tools.git
+	sslVerify = false
+[https]
+	proxy = https://github.com/EduardoFerreira22/Tech.Tools.git
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
